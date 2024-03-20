@@ -20,5 +20,3 @@ class Form1(Form1Template):
                     numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
         
         self.lbl_result.text = "Dãy số sau khi sắp xếp: " + ' '.join(map(str, numbers))
-
-
